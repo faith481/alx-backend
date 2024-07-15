@@ -5,7 +5,7 @@ from flask_babel import Babel
 
 
 app = Flask(__name__)
-app.url_map.strict_slashes = False
+app.url_map.strict_slashes = True
 babel = Babel(app)
 
 
